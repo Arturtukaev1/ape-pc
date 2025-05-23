@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APE Premium Cannabis</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://arturtukaev1.github.io/storytelling/Ape-Logo.png" rel="icon">
+    <link href="https://arturtukaev1.github.io/storytelling/Ape-Logo.png" rel="apple-touch-icon">
+</head>
+    <style>
+        html {
+          scroll-behavior: smooth;
+        }
+  /* Класс для указания, что блок кликабелен */
+  .clickable {
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  /* Эффект при наведении */
+  .clickable:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+    </style>
+<body>
+    <!-- NAVIGATION -->
+<nav class="py-4">
+  <div class="container mx-auto flex items-center justify-between px-4">
+    <!-- Лого -->
+    <a href="#" class="flex items-center">
+      <!-- Замени src на свой логотип -->
+      <img src="https://apepremium.com/wp-content/uploads/2021/08/Ape-Logo-1000x300-1-700x199.png" alt="APE Logo" class="h-10 w-auto mr-3 clickable">
+      <span class="text-white text-2xl font-bold tracking-wider">APE</span>
+    </a>
+    <!-- Можно добавить пункты меню, если понадобится -->
+    <!--
+    <div class="hidden md:flex space-x-8">
+      <a href="#about" class="text-white hover:text-rose-500 transition">About</a>
+      <a href="#faq" class="text-white hover:text-rose-500 transition">FAQ</a>
+      <a href="#order" class="bg-rose-700 text-white px-6 py-2 rounded-xl font-semibold shadow hover:bg-rose-600 transition">Order</a>
+    </div>
+    -->
+  </div>
+</nav>
+
+<section class="bg-gray-900 text-white py-16">
+  <div class="max-w-6xl mx-auto px-4">
+    <!-- Заголовок секции -->
+    <h2 class="text-3xl md:text-4xl font-bold mb-4">WHAT IS APE?</h2>
+    <!-- Разделитель под заголовком -->
+    <div class="w-20 h-1 bg-yellow-400 mb-12"></div>
+    <div class="flex flex-col md:flex-row items-center md:items-start">
+      <!-- Левый блок: единая заглушка продукта -->
+      <div class="w-full md:w-1/2 flex justify-center mb-8 md:mb-0">
+        <img src="https://apepremium.com/wp-content/uploads/2025/05/What-Is-Shake-Weed.png" alt="APE product" class="w-64 md:w-80 lg:w-96">
+      </div>
+      <!-- Правый блок: текст -->
+      <div class="w-full md:w-1/2 md:pl-12">
+        <h3 class="text-2xl md:text-3xl font-semibold mb-4">
+          Premium Cannabis for Creativity, Relaxation, and Wellness
+        </h3>
+        <p class="text-lg mb-4">
+          APE cannabis brand is a line of premium products that set a new benchmark for quality and design. APE’s concept of THC/CBD mixes <span class="clickable"> (“Different high for different time”) </span> has provided this lifestyle brand a loyal following since its inception in 2018.
+        </p>
+        <p class="mb-6">
+          These carts have helped thousands of people become more creative, sleep better, or relax their muscles after sports. Ape Premium Cannabis Corp. use the best materials.
+        </p>
+        <!-- Единое изображение бейджей -->
+        <div>
+          <img src="https://apepremium.com/wp-content/uploads/2023/06/STICKERS-min-1.png" alt="Quality and Compliance Badges" class="h-12 md:h-16 clickable">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Section: Benefits & Cannabis Fact -->
+<section class="bg-white text-gray-900 py-16">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="flex flex-col md:flex-row items-center">
+      <!-- Левый блок: список преимуществ -->
+      <div class="w-full md:w-1/2 mb-8 md:mb-0">
+        <h3 class="text-2xl md:text-3xl font-semibold mb-6">
+          With APE, you will:
+        </h3>
+        <ul class="list-disc list-inside space-y-4 text-lg">
+          <li>Boost creativity and focus for any task</li>
+          <li>Enhance relaxation without drowsiness</li>
+          <li>Support post-workout muscle recovery</li>
+        </ul>
+      </div>
+      <!-- Правый блок: картинка продукта -->
+      <div class="w-full md:w-1/2 flex justify-center">
+        <img src="https://arturtukaev1.github.io/storytelling/5block.png" alt="APE product" class="w-48 md:w-64 lg:w-80">
+      </div>
+    </div>
+
+    <!-- Интересный факт о каннабисе -->
+    <div class="bg-gray-100 rounded-xl p-8 mt-12 flex items-center">
+      <img src="https://arturtukaev1.github.io/storytelling/Ape-Logo.png" alt="Cannabis Fact Icon" class="h-16 w-16 mr-6 flex-shrink-0">
+      <div>
+        <h4 class="text-xl font-semibold mb-2">Interesting Cannabis Fact</h4>
+        <p class="text-base leading-relaxed">
+          Cannabis contains over 100 cannabinoids, including THC and CBD, which interact with your body’s endocannabinoid system to help regulate mood, sleep, appetite, and pain—offering a natural path to wellness.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Section: Countdown Offer -->
+<section class="bg-gray-900 text-white py-16">
+  <div class="max-w-3xl mx-auto text-center px-4">
+    <!-- Заголовок -->
+    <h2 class="text-3xl md:text-4xl font-bold mb-4">
+      Claim Your Discounted APE Premium Carts Below
+      <span class="text-yellow-400">While Stock Lasts</span>
+    </h2>
+    <!-- Таймер -->
+    <div id="countdown" class="text-5xl md:text-6xl font-mono mt-6">
+      15:00
+    </div>
+  </div>
+</section>
+<!-- Section: APE Pricing Plans -->
+<section id="pricing" class="bg-white text-gray-900 py-16">
+  <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+    
+    <!-- Plan 1: Basic -->
+    <div class="group border border-gray-300 rounded-xl p-6 hover:shadow-lg hover:-translate-y-1 transform transition">
+      <div class="text-center">
+        <div class="bg-gray-300 rounded-t-lg py-2 px-4 font-semibold text-lg">Basic</div>
+        <h4 class="text-3xl font-bold text-green-600 my-4">1 Cartridge</h4>
+        <p class="text-sm text-gray-600 mb-4">30 Days</p>
+        <img src="placeholder-cartridge1.jpg" alt="1 Cartridge" class="mx-auto w-32 mb-6">
+        <ul class="text-left space-y-3 mb-6">
+          <li class="flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+            </svg>
+            <span class="ml-2">THC/CBD balanced blend</span>
+          </li>
+          <li class="flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+            </svg>
+            <span class="ml-2">Premium 510-thread compatibility</span>
+          </li>
+          <li class="flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+            </svg>
+            <span class="ml-2">Lab-tested for purity</span>
+          </li>
+        </ul>
+        <div class="text-4xl font-extrabold mb-6">$89</div>
+        <button class="bg-yellow-400 text-black font-semibold px-6 py-3 rounded-full transition transform hover:scale-105 hover:bg-yellow-500">
+          Add To Cart
+        </button>
+        <img src="https://lp.institutoexperience.com.br/wp-content/uploads/2024/09/cards-2.webp" alt="Payment Methods" class="mx-auto mt-4 w-36 h-auto">
+      </div>
+    </div>
+
+    <!-- Plan 2: Best Value -->
+    <div class="relative group border border-red-500 rounded-xl p-6 hover:shadow-lg hover:-translate-y-1 transform transition">
+      <!-- Label -->
+      <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-red-500 rounded-t-lg py-2 px-6 text-white font-semibold">
+        Best Value!
+      </div>
+      <div class="pt-6 text-center">
+        <h4 class="text-3xl font-bold text-green-600 my-4">6 Cartridges</h4>
+        <p class="text-sm text-gray-600 mb-4">180 Days</p>
+        <img src="placeholder-cartridge6.jpg" alt="6 Cartridges" class="mx-auto w-40 mb-6">
+        <ul class="text-left space-y-3 mb-6">
+          <li class="flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+            </svg>
+            <span class="ml-2">Save $780</span>
+          </li>
+          <li class="flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+            </svg>
+            <span class="ml-2">Half-year bulk supply</span>
+          </li>
+          <li class="flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+            </svg>
+            <span class="ml-2">Lab-tested for purity</span>
+          </li>
+        </ul>
+        <div class="text-4xl font-extrabold mb-6">$49</div>
+        <button class="bg-yellow-400 text-black font-semibold px-6 py-3 rounded-full transition transform hover:scale-105 hover:bg-yellow-500">
+          Add To Cart
+        </button>
+        <img src="https://lp.institutoexperience.com.br/wp-content/uploads/2024/09/cards-2.webp" alt="Payment Methods" class="mx-auto mt-4 w-36 h-auto">
+      </div>
+    </div>
+
+    <!-- Plan 3: Most Popular -->
+    <div class="group border border-gray-300 rounded-xl p-6 hover:shadow-lg hover:-translate-y-1 transform transition" id="sell">
+      <div class="bg-gray-300 rounded-t-lg py-2 px-4 font-semibold text-lg text-center">Most Popular</div>
+      <h4 class="text-3xl font-bold text-green-600 my-4 text-center">3 Cartridges</h4>
+      <p class="text-sm text-gray-600 mb-4 text-center">90 Days</p>
+      <img src="placeholder-cartridge3.jpg" alt="3 Cartridges" class="mx-auto w-32 mb-6">
+      <ul class="text-left space-y-3 mb-6">
+        <li class="flex items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+          </svg>
+          <span class="ml-2">Save $360</span>
+        </li>
+        <li class="flex items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+          </svg>
+          <span class="ml-2">Ideal 3-pack supply</span>
+        </li>
+        <li class="flex items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+          </svg>
+          <span class="ml-2">Lab-tested for purity</span>
+        </li>
+      </ul>
+      <div class="text-4xl font-extrabold mb-6 text-center">$59</div>
+      <button class="mx-auto block bg-yellow-400 text-black font-semibold px-6 py-3 rounded-full transition transform hover:scale-105 hover:bg-yellow-500">
+        Add To Cart
+      </button>
+      <img src="https://lp.institutoexperience.com.br/wp-content/uploads/2024/09/cards-2.webp" alt="Payment Methods" class="mx-auto mt-4 w-36 h-auto">
+    </div>
+
+  </div>
+</section>
+<section class="py-16 bg-white">
+  <div class="max-w-5xl mx-auto text-center mb-10">
+    <h2 class="text-3xl font-bold mb-2">Why Choose APE?</h2>
+    <p class="text-lg text-gray-700">
+      Each APE Premium Cannabis Cart delivers a unique experience—crafted for your lifestyle.
+    </p>
+  </div>
+  <div class="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-6xl mx-auto">
+    <!-- Card 1 -->
+    <div class="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center clickable">
+      <img src="" alt="Creative Boost" class="rounded-xl w-full h-40 object-cover mb-4 bg-gray-100"/>
+      <h3 class="font-bold text-lg mb-2">Creative Lift</h3>
+      <p class="text-gray-700 text-center">
+        <span class="font-semibold">Energizing blends</span> of THC and CBD help spark imagination and boost focus—perfect for creators, makers, and brainstorms.
+      </p>
+    </div>
+    <!-- Card 2 -->
+    <div class="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center clickable">
+      <img src="" alt="Calming Unwind" class="rounded-xl w-full h-40 object-cover mb-4 bg-gray-100"/>
+      <h3 class="font-bold text-lg mb-2">Calming Unwind</h3>
+      <p class="text-gray-700 text-center">
+        <span class="font-semibold">Relaxing formulas</span> help ease tension, melt away stress, and support restful evenings after work or workouts.
+      </p>
+    </div>
+    <!-- Card 3 -->
+    <div class="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center clickable">
+      <img src="" alt="Deep Reset" class="rounded-xl w-full h-40 object-cover mb-4 bg-gray-100"/>
+      <h3 class="font-bold text-lg mb-2">Deep Reset</h3>
+      <p class="text-gray-700 text-center">
+        <span class="font-semibold">Restorative blends</span> for deep sleep and full-body recovery—wake up refreshed, ready to tackle anything.
+      </p>
+    </div>
+    <!-- Card 4 -->
+    <div class="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center clickable">
+      <img src="" alt="Premium Materials" class="rounded-xl w-full h-40 object-cover mb-4 bg-gray-100"/>
+      <h3 class="font-bold text-lg mb-2">Premium Materials</h3>
+      <p class="text-gray-700 text-center">
+        <span class="font-semibold">Top-tier ingredients</span> and hardware since 2018—clean taste, reliable quality, and full transparency in every cart.
+      </p>
+    </div>
+  </div>
+</section>
+<section class="bg-black py-12">
+  <div class="max-w-4xl mx-auto bg-gray-100 rounded-xl p-8 text-center">
+    <h2 class="text-2xl font-bold mb-4 text-gray-900">Why choose APE?</h2>
+    <p class="mb-2">
+      <span class="font-semibold text-gray-900">Safe & Tested:</span>
+      Every APE cart is lab-tested for purity and safety—no heavy metals, no pesticides, no compromise.
+    </p>
+    <p>
+      <span class="font-semibold text-gray-900">Premium Experience:</span>
+      Crafted in certified facilities since 2018, delivering the cleanest taste and most consistent quality on the market.
+    </p>
+  </div>
+</section>
+
+
+
+<section class="bg-black py-16">
+  <div class="max-w-3xl mx-auto">
+    <h2 class="text-4xl font-bold text-white text-center mb-10">Frequently Asked Questions</h2>
+    <div id="faq-list" class="space-y-6">
+      <!-- FAQ Item Template -->
+      <div class="bg-white rounded-xl shadow">
+        <button
+          class="w-full flex justify-between items-center p-6 focus:outline-none transition group"
+          onclick="toggleFaq(this)"
+        >
+          <span class="font-bold text-lg text-gray-900 group-[.active]:text-rose-700 transition-colors">
+            How do I use APE carts?
+          </span>
+          <span class="ml-4 text-2xl transition-transform group-[.active]:rotate-45 group-[.active]:text-rose-700 text-gray-900">+</span>
+        </button>
+        <div class="faq-answer px-6 pb-6 hidden text-gray-700">
+          Simply attach your APE cartridge to a compatible battery and inhale. Choose the blend that fits your mood—Creative Lift, Calming Unwind, or Deep Reset.
+        </div>
+      </div>
+
+      <div class="bg-white rounded-xl shadow">
+        <button
+          class="w-full flex justify-between items-center p-6 focus:outline-none transition group"
+          onclick="toggleFaq(this)"
+        >
+          <span class="font-bold text-lg text-gray-900 group-[.active]:text-rose-700 transition-colors">
+            Are APE carts safe?
+          </span>
+          <span class="ml-4 text-2xl transition-transform group-[.active]:rotate-45 group-[.active]:text-rose-700 text-gray-900">+</span>
+        </button>
+        <div class="faq-answer px-6 pb-6 hidden text-gray-700">
+          Absolutely. Every batch is lab-tested for purity—no pesticides, heavy metals, or solvents. Clean, trusted, transparent since 2018.
+        </div>
+      </div>
+
+      <div class="bg-white rounded-xl shadow">
+        <button
+          class="w-full flex justify-between items-center p-6 focus:outline-none transition group"
+          onclick="toggleFaq(this)"
+        >
+          <span class="font-bold text-lg text-gray-900 group-[.active]:text-rose-700 transition-colors">
+            How long before I feel the effects?
+          </span>
+          <span class="ml-4 text-2xl transition-transform group-[.active]:rotate-45 group-[.active]:text-rose-700 text-gray-900">+</span>
+        </button>
+        <div class="faq-answer px-6 pb-6 hidden text-gray-700">
+          Most users notice effects within minutes. Choose your desired intensity—just a few gentle puffs are enough for most situations.
+        </div>
+      </div>
+
+      <div class="bg-white rounded-xl shadow">
+        <button
+          class="w-full flex justify-between items-center p-6 focus:outline-none transition group"
+          onclick="toggleFaq(this)"
+        >
+          <span class="font-bold text-lg text-gray-900 group-[.active]:text-rose-700 transition-colors">
+            How is shipping handled?
+          </span>
+          <span class="ml-4 text-2xl transition-transform group-[.active]:rotate-45 group-[.active]:text-rose-700 text-gray-900">+</span>
+        </button>
+        <div class="faq-answer px-6 pb-6 hidden text-gray-700">
+          We ship discreetly and securely in plain packaging. All orders are tracked and insured.
+        </div>
+      </div>
+
+      <div class="bg-white rounded-xl shadow">
+        <button
+          class="w-full flex justify-between items-center p-6 focus:outline-none transition group"
+          onclick="toggleFaq(this)"
+        >
+          <span class="font-bold text-lg text-gray-900 group-[.active]:text-rose-700 transition-colors">
+            Is APE legal in my state?
+          </span>
+          <span class="ml-4 text-2xl transition-transform group-[.active]:rotate-45 group-[.active]:text-rose-700 text-gray-900">+</span>
+        </button>
+        <div class="faq-answer px-6 pb-6 hidden text-gray-700">
+          APE carts are available wherever premium cannabis products are permitted by local law. Please check your region's regulations before ordering.
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA (оставляем как было) -->
+    <div class="mt-12 bg-rose-700 rounded-xl p-8 text-center shadow-lg">
+      <h3 class="text-2xl font-bold text-white mb-2">Don’t Wait—Experience the Shift!</h3>
+      <p class="text-lg text-white mb-6">
+        Discover your unique vibe with APE Premium Cannabis Carts.<br>
+        Click below to secure your supply and take your lifestyle to the next level—clarity, relaxation, and pure creative energy are just a draw away.
+      </p>
+      <span class="inline-block bg-white text-rose-700 font-bold px-8 py-3 rounded-xl shadow transition hover:bg-gray-100 clickable">
+        Order Your APE Cart Now
+      </span>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-black py-10">
+  <div class="max-w-3xl mx-auto px-4">
+    <div class="flex flex-wrap justify-center gap-6 mb-4">
+      <a href="#" class="text-gray-300 hover:text-white transition underline underline-offset-4">Terms</a>
+      <a href="#" class="text-gray-300 hover:text-white transition underline underline-offset-4">Privacy Policies</a>
+      <a href="#" class="text-gray-300 hover:text-white transition underline underline-offset-4">Contact</a>
+      <a href="#" class="text-gray-300 hover:text-white transition underline underline-offset-4">Refund Policy</a>
+      <a href="#" class="text-gray-300 hover:text-white transition underline underline-offset-4">Shipping Policy</a>
+      <a href="#" class="text-gray-300 hover:text-white transition underline underline-offset-4">Disclaimer</a>
+    </div>
+    <div class="text-center text-gray-400 text-sm mt-4">
+      All Rights Reserved &copy; <span id="year"></span> APE Cannabis
+    </div>
+  </div>
+</footer>
+<script>
+  // Текущий год автоматически
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+<script>
+  // Назначаем обработчик клика для каждого кликабельного блока
+  document.querySelectorAll('.clickable').forEach(block => {
+    block.addEventListener('click', () => {
+    document.getElementById('sell').scrollIntoView({ behavior: 'smooth' });
+    });
+  });
+</script>
+
+
+<script>
+function toggleFaq(btn) {
+  // Закрыть все остальные
+  document.querySelectorAll('#faq-list > div').forEach(block => {
+    if (block.querySelector('button') !== btn) {
+      block.querySelector('button').classList.remove('active', 'group-[.active]');
+      block.querySelector('.faq-answer').classList.add('hidden');
+    }
+  });
+
+  // Переключить текущий
+  btn.classList.toggle('active');
+  btn.classList.toggle('group-[.active]');
+  const answer = btn.parentElement.querySelector('.faq-answer');
+  answer.classList.toggle('hidden');
+}
+</script>
+
+<script>
+  // 15-минутный обратный таймер
+  (function() {
+    const display = document.getElementById('countdown');
+    let totalSeconds = 15 * 60;
+
+    function updateTimer() {
+      const minutes = Math.floor(totalSeconds / 60);
+      const seconds = totalSeconds % 60;
+      const m = minutes < 10 ? '0' + minutes : minutes;
+      const s = seconds < 10 ? '0' + seconds : seconds;
+      display.textContent = m + ':' + s;
+
+      if (totalSeconds > 0) {
+        totalSeconds--;
+      } else {
+        clearInterval(timerInterval);
+        // По желанию: можно добавить событие по завершению
+        // display.textContent = "00:00";
+      }
+    }
+
+    // Обновляем сразу и затем каждую секунду
+    updateTimer();
+    const timerInterval = setInterval(updateTimer, 1000);
+  })();
+</script>
+</body>
+</html>
